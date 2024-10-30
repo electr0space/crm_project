@@ -24,7 +24,9 @@
     </form>
 
     <br>
+    <br>
     <hr>
+    <br> 
     <br>
 
     <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
