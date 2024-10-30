@@ -1,3 +1,7 @@
+<?php 
+    include("database.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,6 +45,7 @@
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" required>
         </div>
+        <input type="submit" value="Submit" name="signup_submit">
     </form>
 </body>
 </html>
